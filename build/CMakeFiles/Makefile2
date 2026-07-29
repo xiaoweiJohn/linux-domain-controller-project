@@ -81,12 +81,12 @@ clean: CMakeFiles/vehicle_controller.dir/clean
 CMakeFiles/vehicle_controller.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target vehicle_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target vehicle_controller"
 .PHONY : CMakeFiles/vehicle_controller.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vehicle_controller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/vehicle_controller.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles 0
 .PHONY : CMakeFiles/vehicle_controller.dir/rule

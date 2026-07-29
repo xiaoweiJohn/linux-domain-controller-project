@@ -1,5 +1,5 @@
-CMakeFiles/vehicle_controller.dir/src/main.cpp.o: \
- /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/main.cpp \
+CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o: \
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/battery_ecu.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -151,5 +151,7 @@ CMakeFiles/vehicle_controller.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/middleware/message_queue.h \
- /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/can/can_frame.h
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/ecu/battery_ecu.h \
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/can/can_frame.h \
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/can/can_config.h \
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/middleware/message_queue.h

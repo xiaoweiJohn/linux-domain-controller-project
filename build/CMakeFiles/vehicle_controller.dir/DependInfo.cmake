@@ -8,10 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/body.cpp" "CMakeFiles/vehicle_controller.dir/src/body.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/body.cpp.o.d"
+  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_filter.cpp" "CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o.d"
+  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_pack.cpp" "CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o.d"
+  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_unpack.cpp" "CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o.d"
+  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/battery_ecu.cpp" "CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o.d"
+  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/body_ecu.cpp" "CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o.d"
+  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/sensor_ecu.cpp" "CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o.d"
   "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/main.cpp" "CMakeFiles/vehicle_controller.dir/src/main.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/main.cpp.o.d"
-  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/message_queue.cpp" "CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o.d"
-  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/sensor.cpp" "CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o.d"
+  "/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/middleware/message_queue.cpp" "CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o" "gcc" "CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o.d"
   )
 
 # Targets to which this target links.

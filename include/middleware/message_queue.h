@@ -1,6 +1,9 @@
 ﻿#ifndef MESSAGE_QUEUE_H_
 #define MESSAGE_QUEUE_H_
 
+#include "can_frame.h"
+#include <cstdint>
+
 /**
  * @brief 消息队列
  * 
@@ -15,7 +18,7 @@
  * @param msg 消息内容
  * @return int 成功返回0，失败返回错误码
  */
- int send_message(int queue_id, const void *msg);
+ int send_can_message(int queue_id, CAN_Frame &frame);
 
  
  /**
@@ -25,6 +28,6 @@
   * @param msg 消息内容
   * @return int 成功返回0，失败返回错误码
   */
- int receive_message(int queue_id, void *msg);
+ int receive_can_message(int queue_id, CAN_Frame &frame);
 
 #endif 

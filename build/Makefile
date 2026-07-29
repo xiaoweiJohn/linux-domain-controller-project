@@ -129,29 +129,149 @@ vehicle_controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/build
 .PHONY : vehicle_controller/fast
 
-src/body.o: src/body.cpp.o
-.PHONY : src/body.o
+src/can/can_filter.o: src/can/can_filter.cpp.o
+.PHONY : src/can/can_filter.o
 
 # target to build an object file
-src/body.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/body.cpp.o
-.PHONY : src/body.cpp.o
+src/can/can_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o
+.PHONY : src/can/can_filter.cpp.o
 
-src/body.i: src/body.cpp.i
-.PHONY : src/body.i
+src/can/can_filter.i: src/can/can_filter.cpp.i
+.PHONY : src/can/can_filter.i
 
 # target to preprocess a source file
-src/body.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/body.cpp.i
-.PHONY : src/body.cpp.i
+src/can/can_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.i
+.PHONY : src/can/can_filter.cpp.i
 
-src/body.s: src/body.cpp.s
-.PHONY : src/body.s
+src/can/can_filter.s: src/can/can_filter.cpp.s
+.PHONY : src/can/can_filter.s
 
 # target to generate assembly for a file
-src/body.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/body.cpp.s
-.PHONY : src/body.cpp.s
+src/can/can_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.s
+.PHONY : src/can/can_filter.cpp.s
+
+src/can/can_pack.o: src/can/can_pack.cpp.o
+.PHONY : src/can/can_pack.o
+
+# target to build an object file
+src/can/can_pack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o
+.PHONY : src/can/can_pack.cpp.o
+
+src/can/can_pack.i: src/can/can_pack.cpp.i
+.PHONY : src/can/can_pack.i
+
+# target to preprocess a source file
+src/can/can_pack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.i
+.PHONY : src/can/can_pack.cpp.i
+
+src/can/can_pack.s: src/can/can_pack.cpp.s
+.PHONY : src/can/can_pack.s
+
+# target to generate assembly for a file
+src/can/can_pack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.s
+.PHONY : src/can/can_pack.cpp.s
+
+src/can/can_unpack.o: src/can/can_unpack.cpp.o
+.PHONY : src/can/can_unpack.o
+
+# target to build an object file
+src/can/can_unpack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o
+.PHONY : src/can/can_unpack.cpp.o
+
+src/can/can_unpack.i: src/can/can_unpack.cpp.i
+.PHONY : src/can/can_unpack.i
+
+# target to preprocess a source file
+src/can/can_unpack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.i
+.PHONY : src/can/can_unpack.cpp.i
+
+src/can/can_unpack.s: src/can/can_unpack.cpp.s
+.PHONY : src/can/can_unpack.s
+
+# target to generate assembly for a file
+src/can/can_unpack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.s
+.PHONY : src/can/can_unpack.cpp.s
+
+src/ecu/battery_ecu.o: src/ecu/battery_ecu.cpp.o
+.PHONY : src/ecu/battery_ecu.o
+
+# target to build an object file
+src/ecu/battery_ecu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o
+.PHONY : src/ecu/battery_ecu.cpp.o
+
+src/ecu/battery_ecu.i: src/ecu/battery_ecu.cpp.i
+.PHONY : src/ecu/battery_ecu.i
+
+# target to preprocess a source file
+src/ecu/battery_ecu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.i
+.PHONY : src/ecu/battery_ecu.cpp.i
+
+src/ecu/battery_ecu.s: src/ecu/battery_ecu.cpp.s
+.PHONY : src/ecu/battery_ecu.s
+
+# target to generate assembly for a file
+src/ecu/battery_ecu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.s
+.PHONY : src/ecu/battery_ecu.cpp.s
+
+src/ecu/body_ecu.o: src/ecu/body_ecu.cpp.o
+.PHONY : src/ecu/body_ecu.o
+
+# target to build an object file
+src/ecu/body_ecu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o
+.PHONY : src/ecu/body_ecu.cpp.o
+
+src/ecu/body_ecu.i: src/ecu/body_ecu.cpp.i
+.PHONY : src/ecu/body_ecu.i
+
+# target to preprocess a source file
+src/ecu/body_ecu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.i
+.PHONY : src/ecu/body_ecu.cpp.i
+
+src/ecu/body_ecu.s: src/ecu/body_ecu.cpp.s
+.PHONY : src/ecu/body_ecu.s
+
+# target to generate assembly for a file
+src/ecu/body_ecu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.s
+.PHONY : src/ecu/body_ecu.cpp.s
+
+src/ecu/sensor_ecu.o: src/ecu/sensor_ecu.cpp.o
+.PHONY : src/ecu/sensor_ecu.o
+
+# target to build an object file
+src/ecu/sensor_ecu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o
+.PHONY : src/ecu/sensor_ecu.cpp.o
+
+src/ecu/sensor_ecu.i: src/ecu/sensor_ecu.cpp.i
+.PHONY : src/ecu/sensor_ecu.i
+
+# target to preprocess a source file
+src/ecu/sensor_ecu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.i
+.PHONY : src/ecu/sensor_ecu.cpp.i
+
+src/ecu/sensor_ecu.s: src/ecu/sensor_ecu.cpp.s
+.PHONY : src/ecu/sensor_ecu.s
+
+# target to generate assembly for a file
+src/ecu/sensor_ecu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.s
+.PHONY : src/ecu/sensor_ecu.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -177,53 +297,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/message_queue.o: src/message_queue.cpp.o
-.PHONY : src/message_queue.o
+src/middleware/message_queue.o: src/middleware/message_queue.cpp.o
+.PHONY : src/middleware/message_queue.o
 
 # target to build an object file
-src/message_queue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o
-.PHONY : src/message_queue.cpp.o
+src/middleware/message_queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o
+.PHONY : src/middleware/message_queue.cpp.o
 
-src/message_queue.i: src/message_queue.cpp.i
-.PHONY : src/message_queue.i
-
-# target to preprocess a source file
-src/message_queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.i
-.PHONY : src/message_queue.cpp.i
-
-src/message_queue.s: src/message_queue.cpp.s
-.PHONY : src/message_queue.s
-
-# target to generate assembly for a file
-src/message_queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.s
-.PHONY : src/message_queue.cpp.s
-
-src/sensor.o: src/sensor.cpp.o
-.PHONY : src/sensor.o
-
-# target to build an object file
-src/sensor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o
-.PHONY : src/sensor.cpp.o
-
-src/sensor.i: src/sensor.cpp.i
-.PHONY : src/sensor.i
+src/middleware/message_queue.i: src/middleware/message_queue.cpp.i
+.PHONY : src/middleware/message_queue.i
 
 # target to preprocess a source file
-src/sensor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/sensor.cpp.i
-.PHONY : src/sensor.cpp.i
+src/middleware/message_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.i
+.PHONY : src/middleware/message_queue.cpp.i
 
-src/sensor.s: src/sensor.cpp.s
-.PHONY : src/sensor.s
+src/middleware/message_queue.s: src/middleware/message_queue.cpp.s
+.PHONY : src/middleware/message_queue.s
 
 # target to generate assembly for a file
-src/sensor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/sensor.cpp.s
-.PHONY : src/sensor.cpp.s
+src/middleware/message_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_controller.dir/build.make CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.s
+.PHONY : src/middleware/message_queue.cpp.s
 
 # Help Target
 help:
@@ -234,18 +330,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vehicle_controller"
-	@echo "... src/body.o"
-	@echo "... src/body.i"
-	@echo "... src/body.s"
+	@echo "... src/can/can_filter.o"
+	@echo "... src/can/can_filter.i"
+	@echo "... src/can/can_filter.s"
+	@echo "... src/can/can_pack.o"
+	@echo "... src/can/can_pack.i"
+	@echo "... src/can/can_pack.s"
+	@echo "... src/can/can_unpack.o"
+	@echo "... src/can/can_unpack.i"
+	@echo "... src/can/can_unpack.s"
+	@echo "... src/ecu/battery_ecu.o"
+	@echo "... src/ecu/battery_ecu.i"
+	@echo "... src/ecu/battery_ecu.s"
+	@echo "... src/ecu/body_ecu.o"
+	@echo "... src/ecu/body_ecu.i"
+	@echo "... src/ecu/body_ecu.s"
+	@echo "... src/ecu/sensor_ecu.o"
+	@echo "... src/ecu/sensor_ecu.i"
+	@echo "... src/ecu/sensor_ecu.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/message_queue.o"
-	@echo "... src/message_queue.i"
-	@echo "... src/message_queue.s"
-	@echo "... src/sensor.o"
-	@echo "... src/sensor.i"
-	@echo "... src/sensor.s"
+	@echo "... src/middleware/message_queue.o"
+	@echo "... src/middleware/message_queue.i"
+	@echo "... src/middleware/message_queue.s"
 .PHONY : help
 
 

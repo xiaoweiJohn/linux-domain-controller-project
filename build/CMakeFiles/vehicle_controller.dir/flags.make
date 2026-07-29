@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include
+CXX_INCLUDES = -I/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include -I/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/can -I/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/ecu -I/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/middleware -I/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/common
 
 CXX_FLAGS = -std=gnu++14
 

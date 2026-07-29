@@ -83,65 +83,129 @@ CMakeFiles/vehicle_controller.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/main.cpp -o CMakeFiles/vehicle_controller.dir/src/main.cpp.s
 
-CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
-CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o: ../src/sensor.cpp
-CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/sensor.cpp
+CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
+CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o: ../src/ecu/sensor_ecu.cpp
+CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/sensor_ecu.cpp
 
-CMakeFiles/vehicle_controller.dir/src/sensor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/sensor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/sensor.cpp > CMakeFiles/vehicle_controller.dir/src/sensor.cpp.i
+CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/sensor_ecu.cpp > CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.i
 
-CMakeFiles/vehicle_controller.dir/src/sensor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/sensor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/sensor.cpp -o CMakeFiles/vehicle_controller.dir/src/sensor.cpp.s
+CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/sensor_ecu.cpp -o CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.s
 
-CMakeFiles/vehicle_controller.dir/src/body.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
-CMakeFiles/vehicle_controller.dir/src/body.cpp.o: ../src/body.cpp
-CMakeFiles/vehicle_controller.dir/src/body.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vehicle_controller.dir/src/body.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/body.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/body.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/body.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/body.cpp
+CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
+CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o: ../src/ecu/body_ecu.cpp
+CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/body_ecu.cpp
 
-CMakeFiles/vehicle_controller.dir/src/body.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/body.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/body.cpp > CMakeFiles/vehicle_controller.dir/src/body.cpp.i
+CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/body_ecu.cpp > CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.i
 
-CMakeFiles/vehicle_controller.dir/src/body.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/body.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/body.cpp -o CMakeFiles/vehicle_controller.dir/src/body.cpp.s
+CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/body_ecu.cpp -o CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.s
 
-CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
-CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o: ../src/message_queue.cpp
-CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/message_queue.cpp
+CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
+CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o: ../src/ecu/battery_ecu.cpp
+CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/battery_ecu.cpp
 
-CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/message_queue.cpp > CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.i
+CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/battery_ecu.cpp > CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.i
 
-CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/message_queue.cpp -o CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.s
+CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/battery_ecu.cpp -o CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.s
+
+CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
+CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o: ../src/can/can_pack.cpp
+CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_pack.cpp
+
+CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_pack.cpp > CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.i
+
+CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_pack.cpp -o CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.s
+
+CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
+CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o: ../src/can/can_unpack.cpp
+CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_unpack.cpp
+
+CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_unpack.cpp > CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.i
+
+CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_unpack.cpp -o CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.s
+
+CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
+CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o: ../src/can/can_filter.cpp
+CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_filter.cpp
+
+CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_filter.cpp > CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.i
+
+CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/can/can_filter.cpp -o CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.s
+
+CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o: CMakeFiles/vehicle_controller.dir/flags.make
+CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o: ../src/middleware/message_queue.cpp
+CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o: CMakeFiles/vehicle_controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o -MF CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o.d -o CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o -c /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/middleware/message_queue.cpp
+
+CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/middleware/message_queue.cpp > CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.i
+
+CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/middleware/message_queue.cpp -o CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.s
 
 # Object files for target vehicle_controller
 vehicle_controller_OBJECTS = \
 "CMakeFiles/vehicle_controller.dir/src/main.cpp.o" \
-"CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o" \
-"CMakeFiles/vehicle_controller.dir/src/body.cpp.o" \
-"CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o"
+"CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o" \
+"CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o" \
+"CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o" \
+"CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o" \
+"CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o" \
+"CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o" \
+"CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o"
 
 # External object files for target vehicle_controller
 vehicle_controller_EXTERNAL_OBJECTS =
 
 vehicle_controller: CMakeFiles/vehicle_controller.dir/src/main.cpp.o
-vehicle_controller: CMakeFiles/vehicle_controller.dir/src/sensor.cpp.o
-vehicle_controller: CMakeFiles/vehicle_controller.dir/src/body.cpp.o
-vehicle_controller: CMakeFiles/vehicle_controller.dir/src/message_queue.cpp.o
+vehicle_controller: CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o
+vehicle_controller: CMakeFiles/vehicle_controller.dir/src/ecu/body_ecu.cpp.o
+vehicle_controller: CMakeFiles/vehicle_controller.dir/src/ecu/battery_ecu.cpp.o
+vehicle_controller: CMakeFiles/vehicle_controller.dir/src/can/can_pack.cpp.o
+vehicle_controller: CMakeFiles/vehicle_controller.dir/src/can/can_unpack.cpp.o
+vehicle_controller: CMakeFiles/vehicle_controller.dir/src/can/can_filter.cpp.o
+vehicle_controller: CMakeFiles/vehicle_controller.dir/src/middleware/message_queue.cpp.o
 vehicle_controller: CMakeFiles/vehicle_controller.dir/build.make
 vehicle_controller: CMakeFiles/vehicle_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable vehicle_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable vehicle_controller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vehicle_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

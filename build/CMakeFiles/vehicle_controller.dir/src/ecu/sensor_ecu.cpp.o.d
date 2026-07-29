@@ -1,6 +1,8 @@
-CMakeFiles/vehicle_controller.dir/src/main.cpp.o: \
- /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
+CMakeFiles/vehicle_controller.dir/src/ecu/sensor_ecu.cpp.o: \
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/src/ecu/sensor_ecu.cpp \
+ /usr/include/stdc-predef.h \
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/ecu/sensor_ecu.h \
+ /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -151,5 +153,8 @@ CMakeFiles/vehicle_controller.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/can/can_frame.h \
  /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/middleware/message_queue.h \
- /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/can/can_frame.h
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/can/can_pack.h \
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/can/can_frame.h \
+ /home/xiaowei/workspace/VSProject/Linux-domain-controller-project/include/can/can_config.h
