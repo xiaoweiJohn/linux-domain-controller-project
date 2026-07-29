@@ -1,3 +1,0 @@
-/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles/vehicle_controller.dir
-/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles/edit_cache.dir
-/home/xiaowei/workspace/VSProject/Linux-domain-controller-project/build/CMakeFiles/rebuild_cache.dir
